@@ -1,15 +1,15 @@
 ![image](https://github.com/Reshmarathod/Bing-News-End-to-End-Microsoft-Azure-Fabric-Data-Engineering-Project-Pyspark/assets/146751905/1391ca22-1ef3-4055-9546-212bc5ef800d)
 
 
-Bing News End-to-End Microsoft Azure Fabric Data Engineering Project
+## Bing News End-to-End Microsoft Azure Fabric Data Engineering Project
 
-Introduction
+**Introduction**
 
 This project aims to perform data analytics on news data obtained from the Bing News API utilizing various Microsoft Azure technologies. The process involves data ingestion, transformation, sentiment analysis, semantic modeling, and visualization using Azure Data Factory, Azure Databricks, Azure Synapse Analytics, and Power BI. The end goal is to provide actionable insights from news data and automate the dissemination of positive news articles through email triggers.
 
-Project Workflow
+**Project Workflow**
 
-1. Data Ingestion with Azure Data Factory
+### 1. Data Ingestion with Azure Data Factory
 
 Utilized Azure Data Factory to ingest JSON data from the Bing News API into Lakehouse files folder. Azure Data 
 Factory provides a robust platform for orchestrating and automating data workflows, ensuring reliable and scalable 
@@ -24,7 +24,7 @@ data ingestion.
 
 
 
-2. Data Transformation with PySpark Notebook
+### 2.Data Transformation with PySpark Notebook
 
 Created a PySpark notebook to read the JSON data from the Lakehouse Files folder. Utilized the Explode() function 
 to parse JSON object elements and extract necessary data into a dataframe. Implemented a type 1 incremental load 
@@ -33,7 +33,7 @@ capabilities, ensuring data integrity and efficient data manipulation.
 
   Link - [Add your link here]
 
-3. Sentiment Analysis with PySpark and Azure SynapseML
+### 3. Sentiment Analysis with PySpark and Azure SynapseML
 
 Developed a PySpark notebook to further analyze the Delta table created in the previous step. Utilized Azure 
 SynapseML's AnalyzeText() function to perform sentiment analysis on the "description" data within the dataframe. 
@@ -48,7 +48,7 @@ Implemented type 1 incremental load with Merge Into to append sentiment analysis
 
 
 
-4. Semantic Modeling with Azure Synapse Analytics
+### 4. Semantic Modeling with Azure Synapse Analytics
 
 Leveraged Azure Synapse Analytics to create a Semantic Model from the Delta table containing sentiment analysis 
 data (tbl_sentiment_analysis). Extended the data model by adding new measures to calculate percentages of 
@@ -60,7 +60,7 @@ and analyzing data, enabling intuitive exploration and understanding of data ins
 
 
 
-5. Data Visualization with Power BI
+### 5. Data Visualization with Power BI
 
 Developed a Power BI report to visualize the data from the Semantic Model. Utilized various visualizations such 
 as tables, slicers, and cards to present key metrics and trends. Power BI enables interactive and insightful data 
@@ -75,7 +75,7 @@ exploration, empowering users to gain actionable insights from the data.
 
 
 
-6. Automation with Data Activator
+### 6.Automation with Data Activator
 
 Implemented an email trigger using the Data Activator tool to send emails to users whenever positive news 
  articles are received. Data Activator enables automation of data-driven actions based on predefined criteria, 
