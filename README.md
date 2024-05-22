@@ -40,7 +40,7 @@ SynapseML's AnalyzeText() function to perform sentiment analysis on the "descrip
 Implemented type 1 incremental load with Merge Into to append sentiment analysis results to the Delta table.
 
    
-  [Pyspark Tranformation - 2](http://localhost:8888/notebooks/Transformation-2.ipynb#)
+  [Pyspark Tranformation - 2](https://github.com/Reshmarathod/Bing-News-End-to-End-Microsoft-Azure-Fabric-Data-Engineering-Project-Pyspark/blob/main/Transformation-1.ipynb)
 
 
 
