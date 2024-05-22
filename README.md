@@ -31,7 +31,9 @@ to parse JSON object elements and extract necessary data into a dataframe. Imple
 using Spark SQL Merge Into to load data into a Delta table. Delta tables offer ACID transactions and time travel 
 capabilities, ensuring data integrity and efficient data manipulation.
 
-  [Pyspark Tranformation - 1](http://localhost:8888/notebooks/Transformation-1.ipynb)
+  [Pyspark Tranformation - 1](https://github.com/Reshmarathod/Bing-News-End-to-End-Microsoft-Azure-Fabric-Data-Engineering-Project-Pyspark/blob/main/Transformation-1.ipynb)
+
+
 
 ### 3. Sentiment Analysis with PySpark and Azure SynapseML
 
@@ -40,7 +42,7 @@ SynapseML's AnalyzeText() function to perform sentiment analysis on the "descrip
 Implemented type 1 incremental load with Merge Into to append sentiment analysis results to the Delta table.
 
    
-  [Pyspark Tranformation - 2](https://github.com/Reshmarathod/Bing-News-End-to-End-Microsoft-Azure-Fabric-Data-Engineering-Project-Pyspark/blob/main/Transformation-1.ipynb)
+  [Pyspark Tranformation - 2](https://github.com/Reshmarathod/Bing-News-End-to-End-Microsoft-Azure-Fabric-Data-Engineering-Project-Pyspark/blob/main/Transformation-2.ipynb)
 
 
 
